@@ -1,27 +1,35 @@
-name: Twister
-description: a powerful jekyll theme
-url: #place url
-gems: [jekyll-paginate]
+name: Azeka Technologies
+description: Journal d'un freelance
+url: https://abdelilah-jazouli.github.io
+destination: /home/abdelilah/work/work_github/MesSitesWeb/abdelilah-jazouli.github.io
+plugins: 
+  - jekyll-paginate 
 baseurl: #place folder name if site is served in subfolder
+# permalink structure for the posts
 permalink: /:title/
+# amount of posts on home page, before pagination starts
 paginate: 8
-paginate_path: /page/:num/
+# permalink structure for pagination
+paginate_path: "/page/:num/"
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
-author_title_prefix: 'Posted by '
+# title for the author pages (this is followed by the author name)
+author_title_prefix: "Posté par "
 media_folder: /img
+# default profile picture for authors where this field is not set --> consult "3.2.3 Authors" for more on tha
 author_default_avatar: /profile-pic.jpg
 tumblr: "#"
 pinterest: "#"
 instagram: "#"
-twitter: "#"
+twitter: "https://twitter.com/abdeliahJazouli"
 facebook: "#"
 youtube: "#"
 vimeo: "#"
 soundcloud: "#"
 
 encoding: utf-8
+# default front matter stuff
 defaults:
   -
     scope:
